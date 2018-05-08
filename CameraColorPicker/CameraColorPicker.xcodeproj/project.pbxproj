@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D1C782B320A081FF00558470 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C782B220A081FF00558470 /* AppDelegate.swift */; };
+		D1C782B520A081FF00558470 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C782B420A081FF00558470 /* ViewController.swift */; };
+		D1C782B820A081FF00558470 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1C782B620A081FF00558470 /* Main.storyboard */; };
+		D1C782BA20A0820000558470 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1C782B920A0820000558470 /* Assets.xcassets */; };
+		D1C782BD20A0820000558470 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1C782BB20A0820000558470 /* LaunchScreen.storyboard */; };
+		D1C782C820A0820100558470 /* CameraColorPickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C782C720A0820100558470 /* CameraColorPickerTests.swift */; };
+		D1C782D320A0820100558470 /* CameraColorPickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C782D220A0820100558470 /* CameraColorPickerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D1C782C420A0820100558470 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1C782A720A081FF00558470 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1C782AE20A081FF00558470;
+			remoteInfo = CameraColorPicker;
+		};
+		D1C782CF20A0820100558470 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1C782A720A081FF00558470 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1C782AE20A081FF00558470;
+			remoteInfo = CameraColorPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D1C782AF20A081FF00558470 /* CameraColorPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraColorPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1C782B220A081FF00558470 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D1C782B420A081FF00558470 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D1C782B720A081FF00558470 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D1C782B920A0820000558470 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D1C782BC20A0820000558470 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D1C782BE20A0820000558470 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1C782C320A0820100558470 /* CameraColorPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CameraColorPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1C782C720A0820100558470 /* CameraColorPickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraColorPickerTests.swift; sourceTree = "<group>"; };
+		D1C782C920A0820100558470 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1C782CE20A0820100558470 /* CameraColorPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CameraColorPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1C782D220A0820100558470 /* CameraColorPickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraColorPickerUITests.swift; sourceTree = "<group>"; };
+		D1C782D420A0820100558470 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1C782AC20A081FF00558470 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1C782C020A0820100558470 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1C782CB20A0820100558470 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D1C782A620A081FF00558470 = {
+			isa = PBXGroup;
+			children = (
+				D1C782B120A081FF00558470 /* CameraColorPicker */,
+				D1C782C620A0820100558470 /* CameraColorPickerTests */,
+				D1C782D120A0820100558470 /* CameraColorPickerUITests */,
+				D1C782B020A081FF00558470 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1C782B020A081FF00558470 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1C782AF20A081FF00558470 /* CameraColorPicker.app */,
+				D1C782C320A0820100558470 /* CameraColorPickerTests.xctest */,
+				D1C782CE20A0820100558470 /* CameraColorPickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1C782B120A081FF00558470 /* CameraColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				D1C782B220A081FF00558470 /* AppDelegate.swift */,
+				D1C782B420A081FF00558470 /* ViewController.swift */,
+				D1C782B620A081FF00558470 /* Main.storyboard */,
+				D1C782B920A0820000558470 /* Assets.xcassets */,
+				D1C782BB20A0820000558470 /* LaunchScreen.storyboard */,
+				D1C782BE20A0820000558470 /* Info.plist */,
+			);
+			path = CameraColorPicker;
+			sourceTree = "<group>";
+		};
+		D1C782C620A0820100558470 /* CameraColorPickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D1C782C720A0820100558470 /* CameraColorPickerTests.swift */,
+				D1C782C920A0820100558470 /* Info.plist */,
+			);
+			path = CameraColorPickerTests;
+			sourceTree = "<group>";
+		};
+		D1C782D120A0820100558470 /* CameraColorPickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D1C782D220A0820100558470 /* CameraColorPickerUITests.swift */,
+				D1C782D420A0820100558470 /* Info.plist */,
+			);
+			path = CameraColorPickerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1C782AE20A081FF00558470 /* CameraColorPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1C782D720A0820100558470 /* Build configuration list for PBXNativeTarget "CameraColorPicker" */;
+			buildPhases = (
+				D1C782AB20A081FF00558470 /* Sources */,
+				D1C782AC20A081FF00558470 /* Frameworks */,
+				D1C782AD20A081FF00558470 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CameraColorPicker;
+			productName = CameraColorPicker;
+			productReference = D1C782AF20A081FF00558470 /* CameraColorPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D1C782C220A0820100558470 /* CameraColorPickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1C782DA20A0820100558470 /* Build configuration list for PBXNativeTarget "CameraColorPickerTests" */;
+			buildPhases = (
+				D1C782BF20A0820100558470 /* Sources */,
+				D1C782C020A0820100558470 /* Frameworks */,
+				D1C782C120A0820100558470 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1C782C520A0820100558470 /* PBXTargetDependency */,
+			);
+			name = CameraColorPickerTests;
+			productName = CameraColorPickerTests;
+			productReference = D1C782C320A0820100558470 /* CameraColorPickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D1C782CD20A0820100558470 /* CameraColorPickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1C782DD20A0820100558470 /* Build configuration list for PBXNativeTarget "CameraColorPickerUITests" */;
+			buildPhases = (
+				D1C782CA20A0820100558470 /* Sources */,
+				D1C782CB20A0820100558470 /* Frameworks */,
+				D1C782CC20A0820100558470 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1C782D020A0820100558470 /* PBXTargetDependency */,
+			);
+			name = CameraColorPickerUITests;
+			productName = CameraColorPickerUITests;
+			productReference = D1C782CE20A0820100558470 /* CameraColorPickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1C782A720A081FF00558470 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Zhe Qin";
+				TargetAttributes = {
+					D1C782AE20A081FF00558470 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					D1C782C220A0820100558470 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = D1C782AE20A081FF00558470;
+					};
+					D1C782CD20A0820100558470 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = D1C782AE20A081FF00558470;
+					};
+				};
+			};
+			buildConfigurationList = D1C782AA20A081FF00558470 /* Build configuration list for PBXProject "CameraColorPicker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D1C782A620A081FF00558470;
+			productRefGroup = D1C782B020A081FF00558470 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1C782AE20A081FF00558470 /* CameraColorPicker */,
+				D1C782C220A0820100558470 /* CameraColorPickerTests */,
+				D1C782CD20A0820100558470 /* CameraColorPickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1C782AD20A081FF00558470 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1C782BD20A0820000558470 /* LaunchScreen.storyboard in Resources */,
+				D1C782BA20A0820000558470 /* Assets.xcassets in Resources */,
+				D1C782B820A081FF00558470 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1C782C120A0820100558470 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1C782CC20A0820100558470 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1C782AB20A081FF00558470 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1C782B520A081FF00558470 /* ViewController.swift in Sources */,
+				D1C782B320A081FF00558470 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1C782BF20A0820100558470 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1C782C820A0820100558470 /* CameraColorPickerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1C782CA20A0820100558470 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1C782D320A0820100558470 /* CameraColorPickerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D1C782C520A0820100558470 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1C782AE20A081FF00558470 /* CameraColorPicker */;
+			targetProxy = D1C782C420A0820100558470 /* PBXContainerItemProxy */;
+		};
+		D1C782D020A0820100558470 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1C782AE20A081FF00558470 /* CameraColorPicker */;
+			targetProxy = D1C782CF20A0820100558470 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D1C782B620A081FF00558470 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1C782B720A081FF00558470 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D1C782BB20A0820000558470 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1C782BC20A0820000558470 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D1C782D520A0820100558470 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D1C782D620A0820100558470 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D1C782D820A0820100558470 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5LEYS8XTT5;
+				INFOPLIST_FILE = CameraColorPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sibozn.CameraColorPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D1C782D920A0820100558470 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5LEYS8XTT5;
+				INFOPLIST_FILE = CameraColorPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sibozn.CameraColorPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D1C782DB20A0820100558470 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5LEYS8XTT5;
+				INFOPLIST_FILE = CameraColorPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sibozn.CameraColorPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CameraColorPicker.app/CameraColorPicker";
+			};
+			name = Debug;
+		};
+		D1C782DC20A0820100558470 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5LEYS8XTT5;
+				INFOPLIST_FILE = CameraColorPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sibozn.CameraColorPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CameraColorPicker.app/CameraColorPicker";
+			};
+			name = Release;
+		};
+		D1C782DE20A0820100558470 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5LEYS8XTT5;
+				INFOPLIST_FILE = CameraColorPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sibozn.CameraColorPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CameraColorPicker;
+			};
+			name = Debug;
+		};
+		D1C782DF20A0820100558470 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5LEYS8XTT5;
+				INFOPLIST_FILE = CameraColorPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sibozn.CameraColorPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CameraColorPicker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1C782AA20A081FF00558470 /* Build configuration list for PBXProject "CameraColorPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1C782D520A0820100558470 /* Debug */,
+				D1C782D620A0820100558470 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1C782D720A0820100558470 /* Build configuration list for PBXNativeTarget "CameraColorPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1C782D820A0820100558470 /* Debug */,
+				D1C782D920A0820100558470 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1C782DA20A0820100558470 /* Build configuration list for PBXNativeTarget "CameraColorPickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1C782DB20A0820100558470 /* Debug */,
+				D1C782DC20A0820100558470 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1C782DD20A0820100558470 /* Build configuration list for PBXNativeTarget "CameraColorPickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1C782DE20A0820100558470 /* Debug */,
+				D1C782DF20A0820100558470 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D1C782A720A081FF00558470 /* Project object */;
+}
